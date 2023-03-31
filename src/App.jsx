@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Happy from "./components/Happy";
 
 function App() {
   return (
@@ -24,6 +25,10 @@ function App() {
             </li>
           </ul>
         </nav>
+
+        <Routes>
+          <Route path="happy" element={<Happy />}/>
+        </Routes>
       </div>
     </Router>
   );
