@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 function App() {
   return (
     <Router>
-      <div>
+      <div className="bg-gray-900 h-screen text-white flex justify-center items-center">
         <nav>
           <ul>
             <li>
